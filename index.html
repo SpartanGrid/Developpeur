@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Développeur - Langages: HTML, css, scss, javascript, réact</title>
+  <meta name="description" content="Création de site web ">
+  
+  <meta property="og:title" content="Développeur"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="http://exemple.com/exemple-titre-article"/>
+  <meta property="og:image" content="http://exemple.com/article_thumbnail.jpg"/>
+  <meta property="og:description" content="Cet article présente le protocole Open Graph"/>
+  
+  <link rel="stortcut icon"  href="./assets/img/développeur.png">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  
+</head>
+
+<body>
+  <span class="mouse" id="cursor"></span>
+  <span class="mouse" id="mouse1"></span>
+  <span class="mouse" id="mouse2"></span>
+  <div class="mousemove"></div>
+  
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>SpartanGrid</h1>
+      </div>  
+      <ul class="nav-elements">
+        <LI><a href="#main">HTML</a></LI>
+        <LI><a href="#main">SCSS</a></LI>
+        <LI>SCSS</LI>
+        <LI><a href="#JavaScript">JavaScript</a></LI>
+        <LI><a href="#Formulaire">Formulaire</a></LI>
+      </ul>
+      <div class="nav-icons">
+        <a href="https://discord.gg/KGAzbE7"target="_bank"><i class="fa-brands fa-discord"></i></a> 
+        <a href="https://youtube.com/@barbeblanche7777"target="_bank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://github.com/SpartanGrid"target="_bank"><i class="fa-brands fa-github"></i></a>
+      </div> 
+    </nav>
+    <div class="header-text">
+      <div>
+        <h2>Welcome to</h2>
+        <h1>THE WORLD</h1>
+        <a href="https://spartangrid.github.io/Developpeur/"target="_bank"><img src="./assets/img/développeur.png" alt="icon-developer"></a>
+        
+        <h6>OF THE DEVELOPER</h6>
+      </div> 
+    </div>
+    <div id="side-bar">
+      <div class="toggle-btn" id="btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li class="list">Contact</li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <span>
+      <h2>HTML</h2>
+    </span>
+    <section class="section1">
+      <div class="left-part"></div>
+      <div class="right-part">
+        <p>La dernière version stable du HTML, HTML5, transforme le HTML qui était un simple balisage pour structurer des documents en une plate-forme complète de développement d'applications. Parmi ses autres caractéristiques, HTML5 comporte de nouveaux éléments et des API JavaScript pour améliorer le stockage, le multimédia et l'accès au matériel.</p>
+        <video src="./assets/videos/HTML ! .mp4" height="350" autoplay muted loop></video>
+      </div>
+    </section>
+    <H3>Styles.scss</H3>
+    <div class="section3">
+      <p>Créer "New files" index.HTML <br>
+        Mettre le "!" (point d'exclamation) <br>
+        Créer new files styles.css <br>
+        
+        Reliez le fichier html avec celui du styles. <br>
+        Link: ./styles.css <br>
+        S'assurer que le styles est relié: <br>
+        body {
+          background: pink;
+        }
+        </p>
+        <video src="./assets/videos/Navbar.mp4" height="350" autoplay muted loop>
+        </video>
+      </div>
+    </main>
+    
+    <h3>EventCLicked</h3>
+    <section1 id="JavaScript">
+      <div class="click-event box">
+      <h4>Est-ce que visual code studio est utilisé pour le codage?</h4> 
+      <button id="btn-1">Oui</button> 
+      <button id="btn-2">Non</button>
+      <p id="p1">La bonne réponse est Oui</p>
+      <video id="video-1" src="../assets/videos/non.mp4" height="350" autoplay muted loop> </video>
+      <video id="video-2" src="./assets/videos/oui.mp4" height="350"  autoplay muted loop></video>
+    </div>
+  </section1>
+  
+  <h3>KeyPressAuto</h3>
+  <section2>
+    <div class="script-auto box2">
+      <h6>Je suis un</h6>
+      <h6 id="target"></h6>
+    </div>
+    <div class="keypress box3">
+      <h6>Vous appuyez sur la touche : <span id="key"></span></h6>
+    </div>
+  </section2>
+  
+  <H3>FullBubles</H3>
+  <section3>
+    <div class="target-full box4">
+      <h9>0</h9>
+    </div>
+  </section3>
+
+  <h5>Formulaire</h5>
+  <footer id="Formulaire">
+    <form action="">
+      <label for="name">name</label>
+      <input type="text" id="name" autocomplete="off">
+      <label for="email">email</label>
+      <input type="text" id="email">
+      <label for="message">message</label>
+      <textarea id="message"></textarea>
+      <div class="submit-container">
+        <input type="submit" class="btn" value="send message">
+      </div>
+    </form>
+    <div class="infos-contact">
+        <h7>address</h7>
+        <p><br>1234 Somewhere Road #87257<br>Nashville, TN 00000-0000</p>
+      </div>
+      <div>
+        <h7>phone</h7>
+        <p>(000) 000-0000</p>
+      </div>
+      <div>
+        <h7>email</h7>
+        <p>info@untitled.ltd</p>
+      </div>
+      <div class="social">
+        <h7>social</h7>
+        <ul>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <section4>
+    <div class="comment box5">
+      <div class="head"><h10>Post un comment</h10></div>
+      <div><span id="comment">0</span> Comments</div>
+      <div class="text"><p>We are happy to hear from you</p></div>
+      <div class="comments"></div>
+      <div class="commentbox5">
+        <img src="./assets/img/unknown.png" alt="">
+        <div class="content">
+          <h10>Comment as:</h10>
+          <input type="text" value="Anonymous" class="user">
+
+          <div class="commentinput">
+            <input type="text" placeholder="Enter comment" class="usercomment">
+            <div class="buttons">
+              <button type="submit" disabled id="publish">Publish</button>
+              <div class="notify">
+                <input type="checkbox" class="notifyinput"> <span>Notify me</span>
+              </div>
+            </div> 
+          </div>
+          <p class="policy">This site is protected by reCAPTCHA and the Google <a href="">privace policy</a> and <a href="">Terms of service</a> apply.</p>
+        </div>
+      </div>
+    </div>
+  </section4>
+
+  <div class="section5">
+    <div class="comment box6">
+      <div class="logo">
+        <img src="./assets/img/comment.png" alt="">
+        <span>Ai</span>
+      </div>
+      <div class="lists">
+        <span id="openSidebar">&#x2630;</span>
+      </div>
+    </div>
+      
+    <div class="description">
+      <h1>Width ChatBot, automating customer service is a breeze.</h1>
+      <p>All in-one platform to build and launc conversational chatbot without coding.</p>
+      <div class="email">
+      <input type="email" placeholder="Enter your busness email">
+      <button>Sign up free</button>
+      </div>
+      <div class="trials">
+        <div><p>First 14-days trial</p></div>
+        <div><p>No credit card required</p></div>
+      </div>
+    </div>
+    
+    <div class="chat_options">
+      <div class="message_ai">
+        <span id="exitIcon">&#10005;</span>
+        <div class="ai_message">
+          <p> Welcome back! How I help you today?. </p>
+        </div>
+      </div>
+      <div class="ai_image">
+        <img src="./assets/img/comment.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  
+  <script src="./index.js"></script>
+</body>
+</html>

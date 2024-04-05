@@ -1,0 +1,43 @@
+// h3 {
+//   border: 1px solid rgba(255, 0, 0, 0.607);
+//   height: 7vh;
+//   display: grid;
+//   align-items: center;
+//   color: rgb(96, 227, 227);
+//   margin: 25px auto;
+//   width: 85%;
+//   font-size: 2rem;
+//   align-content: space-around;
+// }  
+section2 {
+  width: 85%;
+  margin: 0 auto 30px;
+  display: grid;
+  font-family: $font2;
+  text-align: center;
+  .box2 {
+    color: $color1;
+    border: 3px solid rgb(96, 227, 227);
+    background:  rgba(65, 53, 134, 0.806);
+    padding: 45px; 
+    margin: 25px auto;
+    font-size: 2.5rem;
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+  }
+  h6 {
+    color: $color1;
+  }
+  .box3 {
+    color: $color1;
+    border: 3px solid rgb(96, 227, 227);
+    background:  rgba(65, 53, 134, 0.806);
+    padding: 45px; 
+    margin: 25px auto;
+    font-size: 2.5rem;
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+  }
+}

@@ -1,0 +1,196 @@
+.section5 {
+  position: relative;
+  background: linear-gradient(180deg, purple, blue);
+  min-height: 100vh;
+  font-family: $font3;
+}
+
+.box6 {
+  width: 95%;
+  color: #fff;
+  background: #333;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.logo img {
+  width: 40px;
+}
+.logo span {
+  font-size: 33px;
+  font-weight: lighter;
+  font-family: $font2;
+}
+.lists {
+  cursor: pointer;
+  font-size: 23px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.description > h1 {
+  color: #fff;
+  font-size: 50px;
+  max-width: 70%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.description > p {
+  line-height: 30px;
+  max-width: 500px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.email input {
+  width: 500px;
+  border: none;
+  padding: 20px;
+  border-radius: 1px;
+}
+
+.email input::placeholder {
+  font-size: 17px;
+}
+
+.email button {
+  padding: 20px;
+  color: #fff;
+  background: rgb(38,0,255);
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.trials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: warp;
+  gap: 20px;
+  color: #fff;
+}
+
+.trials > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trials > div::before {
+  content: attr(data-good);
+  margin-right: 10px;
+}
+
+.chat_options {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  text-align: right;
+}
+
+.message_ai {
+  width: 300px;
+  position: relative;
+  text-align: left;
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: 1s linear;
+}
+
+.message_ai.add {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+#exitIcon {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ai_message {
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.ai_image img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 757px) {
+  .logo img {
+    width: 30px;
+  }
+
+  .logo span {
+    font-size: 22px;
+  }
+
+  .lists {
+    font-size: 20px;
+  }
+
+  .description {
+    padding: 10px;
+  }
+
+  .description > h1 {
+    font-size: 25px;
+  }
+
+  .description > p {
+    font-size: 15px;
+  }
+
+  .email input {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .email input::placeholder {
+    font-size: 13px;
+  }
+
+  .email button {
+    flex-grow: 1;
+  }
+}
+
+
